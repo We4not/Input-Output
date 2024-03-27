@@ -28,7 +28,7 @@ Input:  [1, 0, 1, 0, 1, 0, 1, 1, 1]
 Output: [0, 1, 0, 1, 0, 1, 0, 0, 0]
 ```
 
-We can also reduce the number of elements in ***data_input***, and the number of elements in ***data_output*** will be exactly the same as in ***data_input***, using ```len()```
+We can also reduce the number of elements in ***data_input***, and the number of elements in ***data_output*** will be exactly the same as in ***data_input***
 ``` python
 data_input = [0, 1, 0]
 ```
