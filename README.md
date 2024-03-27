@@ -14,9 +14,9 @@ Each step, we check if the element ***data_input*** is 1, then we write to ***da
 ``` python
 for i in range(0, len(data_input)):
     if data_input[i] == 1:
-        data_output[i] -= 1
+        data_output.append(data_input[i] - 1)
     if data_input[i] == 0:
-        data_output[i] += 1
+        data_output.append(data_input[i] + 1)
 ```
 And we show ***data_input*** and ***data_output***
 ``` Python
