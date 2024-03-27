@@ -2,9 +2,9 @@
 We have a list input and output list
 ``` python
 data_input = [
-  0, 1, 0,
-  1, 0, 1,
-  0, 0, 0
+    1, 0, 1,
+    0, 1, 0,
+    1, 1, 1
 ]
 
 data_output = [] # in here, we don't write anything
@@ -24,6 +24,6 @@ print(f"Input:  {data_input}\nOutput: {data_output}")
 ```
 Result:
 ```
-Input:  [0, 1, 0, 1, 0, 1, 0, 0, 0]
-Output: [1, 0, 1, 0, 1, 0, 1, 1, 1]
+Input:  [1, 0, 1, 0, 1, 0, 1, 1, 1]
+Output: [0, 1, 0, 1, 0, 1, 0, 0, 0]
 ```
